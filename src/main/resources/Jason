@@ -1,0 +1,87 @@
+-------movie--------------------
+{
+  "movieName": "raat",
+  "movieGenre": "Sci-Fi",
+  "movieHours": "2:40",
+  "movieLanguage": "English",
+  "movieDescription": "A mind-bending journey into the world of dreams.",
+  "movieRating": "4",
+  "movieDate": "2023-11-17"
+    
+}
+
+in param showId
+-----show--------
+{
+  "showStartTime": "2023-11-21T12:30:00",
+  "showEndTime": "2023-11-21T14:30:00",
+  "showName": "Afternoon Show"
+}
+
+in param theatreid , bookingid, screenid
+-------screen--------
+{
+ 
+  "screenName": "Screen 1",
+  "rows": 10,
+  "columns": 15,
+  
+  in param theatreid--
+
+  
+
+}
+=--------Booking--------------------
+{
+        "transactionId": 39,
+    "bookingDate": "2023-11-20",
+  "transactionMode": "Online",
+  "transactionStatus": "Completed",
+  "totalCost": 50.0,
+  "customer":{
+      "customerId":1
+  }
+
+}-----------Customer-------------
+{
+
+  "customerName": "Alwin ",
+  "address": "St Peters",
+  "mobileNumber": "3434343434",
+  "email": "shamala@example.com",
+  "password": "securePassword"
+}
+
+---------Add Theatre----
+{
+
+
+  "theatreName": "Example Theatre",
+  "theatreCity": "City Name",
+  "managerName": "John Doe",
+  "managerContact": "1234567890"
+
+}
+---Ticket----
+{
+
+	"noOfSeats": 2,
+  "ticketStatus": true
+  "booking":{
+  	"bookingId":1
+  	}
+  
+  
+  }
+  ----Seat---------
+  "seatId": 1,
+  "seatNumber": "A1",
+  "type": "Standard",
+  "price": 20.5,
+  "status": "AVAILABLE",
+  "ticket": {
+    "ticketId": ,
+    
+  }
+ --- 
+  

@@ -1,0 +1,438 @@
+2023-11-18 08:58:08 [WARN] - HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=9h46m7s638ms776µs500ns).
+2023-11-18 09:03:15 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 09:03:15 [DEBUG] - POST "/admin/addseat", parameters={}
+2023-11-18 09:03:15 [DEBUG] - Mapped to com.cg.mts.controller.AdminController#addASeat(SeatDTO)
+2023-11-18 09:03:15 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.SeatDTO@66d42bd7]
+2023-11-18 09:03:15 [INFO] - -------Seat Added Successfully---------
+2023-11-18 09:03:15 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 09:03:15 [DEBUG] - Writing [com.cg.mts.dto.SeatDTO@67dfea6a]
+2023-11-18 09:03:15 [DEBUG] - Completed 201 CREATED
+2023-11-18 09:05:34 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 09:05:34 [DEBUG] - POST "/admin/addseat", parameters={}
+2023-11-18 09:05:34 [DEBUG] - Mapped to com.cg.mts.controller.AdminController#addASeat(SeatDTO)
+2023-11-18 09:05:34 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.SeatDTO@66d42bd7]
+2023-11-18 09:05:34 [INFO] - -------Seat Added Successfully---------
+2023-11-18 09:05:34 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 09:05:34 [DEBUG] - Writing [com.cg.mts.dto.SeatDTO@67ee01eb]
+2023-11-18 09:05:34 [DEBUG] - Completed 201 CREATED
+2023-11-18 09:06:19 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 09:06:19 [DEBUG] - POST "/admin/addseat", parameters={}
+2023-11-18 09:06:19 [DEBUG] - Mapped to com.cg.mts.controller.AdminController#addASeat(SeatDTO)
+2023-11-18 09:06:19 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.SeatDTO@66d42bd7]
+2023-11-18 09:06:19 [INFO] - -------Seat Added Successfully---------
+2023-11-18 09:06:19 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 09:06:19 [DEBUG] - Writing [com.cg.mts.dto.SeatDTO@67fc196c]
+2023-11-18 09:06:19 [DEBUG] - Completed 201 CREATED
+2023-11-18 09:06:21 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 09:06:21 [DEBUG] - POST "/admin/addseat", parameters={}
+2023-11-18 09:06:21 [DEBUG] - Mapped to com.cg.mts.controller.AdminController#addASeat(SeatDTO)
+2023-11-18 09:06:21 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.SeatDTO@66d42bd7]
+2023-11-18 09:06:21 [INFO] - -------Seat Added Successfully---------
+2023-11-18 09:06:21 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 09:06:21 [DEBUG] - Writing [com.cg.mts.dto.SeatDTO@680a30ed]
+2023-11-18 09:06:21 [DEBUG] - Completed 201 CREATED
+2023-11-18 10:40:13 [WARN] - HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=1h3m34s360ms755µs800ns).
+2023-11-18 14:14:31 [WARN] - HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=1h59m55s565ms980µs600ns).
+2023-11-18 14:26:56 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 14:26:56 [DEBUG] - POST "/user/addTicket?bookingId=1", parameters={masked}
+2023-11-18 14:26:56 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addATicket(TicketDTO, Integer)
+2023-11-18 14:26:56 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.TicketDTO@1b72349]
+2023-11-18 14:26:56 [DEBUG] - Using @ExceptionHandler com.cg.mts.exception.UsrException#handleConflict(Exception, HttpServletRequest)
+2023-11-18 14:26:56 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 14:26:56 [DEBUG] - Writing [com.cg.mts.exception.ErrorMapper@662fd043]
+2023-11-18 14:26:56 [WARN] - Resolved [org.springframework.orm.jpa.JpaSystemException: More than one row with the given identifier was found: 1, for class: com.cg.mts.entity.Booking; nested exception is org.hibernate.HibernateException: More than one row with the given identifier was found: 1, for class: com.cg.mts.entity.Booking]
+2023-11-18 14:26:56 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 17:46:54 [WARN] - HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=2h10m52s100ms205µs400ns).
+2023-11-18 20:02:35 [INFO] - Restarting due to 10 class path changes (0 additions, 0 deletions, 10 modifications)
+2023-11-18 20:02:35 [INFO] - Stopping service [Tomcat]
+2023-11-18 20:02:35 [INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-18 20:02:36 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-19 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-18 20:02:36 [WARN] - The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-18 20:02:36 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:02:36 [INFO] - HikariPool-19 - Shutdown initiated...
+2023-11-18 20:02:36 [INFO] - HikariPool-19 - Shutdown completed.
+2023-11-18 20:02:37 [INFO] - Starting MovieTicketBookingApplication using Java 17.0.7 on LIN-5CG0479BWQ with PID 12128 (C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication\target\classes started by lakshank in C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication)
+2023-11-18 20:02:37 [INFO] - The following 1 profile is active: "ABc"
+2023-11-18 20:02:37 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 20:02:37 [INFO] - Finished Spring Data repository scanning in 68 ms. Found 10 JPA repository interfaces.
+2023-11-18 20:02:37 [INFO] - Tomcat initialized with port(s): 8332 (http)
+2023-11-18 20:02:37 [INFO] - Starting service [Tomcat]
+2023-11-18 20:02:37 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 20:02:38 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 20:02:38 [INFO] - Root WebApplicationContext: initialization completed in 730 ms
+2023-11-18 20:02:38 [INFO] - HikariPool-20 - Starting...
+2023-11-18 20:02:38 [WARN] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-18 20:02:38 [INFO] - HikariPool-20 - Start completed.
+2023-11-18 20:02:38 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:02:38 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 20:02:38 [DEBUG] - 60 mappings in 'requestMappingHandlerMapping'
+2023-11-18 20:02:39 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 20:02:39 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38a11b56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@619080b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@52b73cfc, org.springframework.security.web.header.HeaderWriterFilter@5931de7, org.springframework.security.web.authentication.logout.LogoutFilter@356702d8, com.cg.mts.jwt.JwtRequestFilter@3da37c45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27c092d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a21dfe9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4282400, org.springframework.security.web.session.SessionManagementFilter@18bf94da, org.springframework.security.web.access.ExceptionTranslationFilter@5374cecf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1aaf4803]
+2023-11-18 20:02:39 [INFO] - LiveReload server is running on port 35729
+2023-11-18 20:02:39 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 20:02:39 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 20:02:39 [DEBUG] - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 20:02:39 [INFO] - Tomcat started on port(s): 8332 (http) with context path ''
+2023-11-18 20:02:39 [INFO] - Context refreshed
+2023-11-18 20:02:39 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 20:02:39 [INFO] - Scanning for api listing references
+2023-11-18 20:02:39 [INFO] - Started MovieTicketBookingApplication in 2.187 seconds (JVM running for 81383.878)
+2023-11-18 20:02:39 [INFO] - Condition evaluation unchanged
+2023-11-18 20:03:15 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-18 20:03:15 [INFO] - Stopping service [Tomcat]
+2023-11-18 20:03:15 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-20 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-18 20:03:15 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:03:15 [INFO] - HikariPool-20 - Shutdown initiated...
+2023-11-18 20:03:15 [INFO] - HikariPool-20 - Shutdown completed.
+2023-11-18 20:03:15 [INFO] - Starting MovieTicketBookingApplication using Java 17.0.7 on LIN-5CG0479BWQ with PID 12128 (C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication\target\classes started by lakshank in C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication)
+2023-11-18 20:03:15 [INFO] - The following 1 profile is active: "ABc"
+2023-11-18 20:03:16 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 20:03:16 [INFO] - Finished Spring Data repository scanning in 85 ms. Found 10 JPA repository interfaces.
+2023-11-18 20:03:16 [INFO] - Tomcat initialized with port(s): 8000 (http)
+2023-11-18 20:03:16 [INFO] - Starting service [Tomcat]
+2023-11-18 20:03:16 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 20:03:16 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 20:03:16 [INFO] - Root WebApplicationContext: initialization completed in 684 ms
+2023-11-18 20:03:16 [INFO] - HikariPool-21 - Starting...
+2023-11-18 20:03:16 [WARN] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-18 20:03:16 [INFO] - HikariPool-21 - Start completed.
+2023-11-18 20:03:16 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:03:16 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 20:03:16 [DEBUG] - 60 mappings in 'requestMappingHandlerMapping'
+2023-11-18 20:03:16 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 20:03:16 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55a3addf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4486392f, org.springframework.security.web.context.SecurityContextPersistenceFilter@175606be, org.springframework.security.web.header.HeaderWriterFilter@14a4c54, org.springframework.security.web.authentication.logout.LogoutFilter@15338291, com.cg.mts.jwt.JwtRequestFilter@6bde5978, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69f20126, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a89c8a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1872653, org.springframework.security.web.session.SessionManagementFilter@2a34584e, org.springframework.security.web.access.ExceptionTranslationFilter@6363a73d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bef8a06]
+2023-11-18 20:03:16 [INFO] - LiveReload server is running on port 35729
+2023-11-18 20:03:16 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 20:03:16 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 20:03:16 [DEBUG] - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 20:03:17 [INFO] - Tomcat started on port(s): 8000 (http) with context path ''
+2023-11-18 20:03:17 [INFO] - Context refreshed
+2023-11-18 20:03:17 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 20:03:17 [INFO] - Scanning for api listing references
+2023-11-18 20:03:17 [INFO] - Started MovieTicketBookingApplication in 1.51 seconds (JVM running for 81421.593)
+2023-11-18 20:03:17 [INFO] - Condition evaluation unchanged
+2023-11-18 20:03:22 [INFO] - Starting MovieTicketBookingApplication using Java 17.0.7 on LIN-5CG0479BWQ with PID 26840 (C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication\target\classes started by lakshank in C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication)
+2023-11-18 20:03:22 [INFO] - The following 1 profile is active: "ABc"
+2023-11-18 20:03:22 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-18 20:03:22 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-18 20:03:24 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 20:03:24 [INFO] - Finished Spring Data repository scanning in 257 ms. Found 10 JPA repository interfaces.
+2023-11-18 20:03:26 [INFO] - Tomcat initialized with port(s): 8000 (http)
+2023-11-18 20:03:26 [INFO] - Starting service [Tomcat]
+2023-11-18 20:03:26 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 20:03:26 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 20:03:26 [INFO] - Root WebApplicationContext: initialization completed in 4095 ms
+2023-11-18 20:03:27 [INFO] - HikariPool-1 - Starting...
+2023-11-18 20:03:27 [WARN] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-18 20:03:28 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 20:03:30 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:03:31 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 20:03:32 [DEBUG] - 60 mappings in 'requestMappingHandlerMapping'
+2023-11-18 20:03:32 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 20:03:33 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@656d7afc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7092b34b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a25a075, org.springframework.security.web.header.HeaderWriterFilter@216db000, org.springframework.security.web.authentication.logout.LogoutFilter@4ddb3408, com.cg.mts.jwt.JwtRequestFilter@2e14e2c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22304801, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7418569d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23199980, org.springframework.security.web.session.SessionManagementFilter@7e98a434, org.springframework.security.web.access.ExceptionTranslationFilter@ecf3710, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c43a4d3]
+2023-11-18 20:03:33 [WARN] - Unable to start LiveReload server
+2023-11-18 20:03:33 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 20:03:33 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 20:03:33 [DEBUG] - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 20:03:34 [WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8000 is already in use
+2023-11-18 20:03:34 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:03:34 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-18 20:03:34 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-18 20:03:34 [INFO] - Stopping service [Tomcat]
+2023-11-18 20:03:34 [INFO] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-18 20:03:34 [ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2023-11-18 20:04:50 [INFO] - Starting MovieTicketBookingApplication using Java 17.0.7 on LIN-5CG0479BWQ with PID 30868 (C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication\target\classes started by lakshank in C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication)
+2023-11-18 20:04:50 [INFO] - The following 1 profile is active: "ABc"
+2023-11-18 20:04:50 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-18 20:04:50 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-18 20:04:53 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 20:04:53 [INFO] - Finished Spring Data repository scanning in 271 ms. Found 10 JPA repository interfaces.
+2023-11-18 20:04:56 [INFO] - Tomcat initialized with port(s): 8000 (http)
+2023-11-18 20:04:56 [INFO] - Starting service [Tomcat]
+2023-11-18 20:04:56 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 20:04:56 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 20:04:56 [INFO] - Root WebApplicationContext: initialization completed in 5830 ms
+2023-11-18 20:04:58 [INFO] - HikariPool-1 - Starting...
+2023-11-18 20:04:58 [WARN] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-18 20:04:58 [INFO] - HikariPool-1 - Start completed.
+2023-11-18 20:05:00 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:05:02 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 20:05:02 [DEBUG] - 60 mappings in 'requestMappingHandlerMapping'
+2023-11-18 20:05:03 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 20:05:03 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22f3fff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f32a63e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f05ca27, org.springframework.security.web.header.HeaderWriterFilter@22304801, org.springframework.security.web.authentication.logout.LogoutFilter@49c0b04d, com.cg.mts.jwt.JwtRequestFilter@18eb1d64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10baf758, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6392779d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c776d5d, org.springframework.security.web.session.SessionManagementFilter@7a0089ef, org.springframework.security.web.access.ExceptionTranslationFilter@1a25a075, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12da8fa0]
+2023-11-18 20:05:03 [INFO] - LiveReload server is running on port 35729
+2023-11-18 20:05:03 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 20:05:03 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 20:05:03 [DEBUG] - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 20:05:04 [INFO] - Tomcat started on port(s): 8000 (http) with context path ''
+2023-11-18 20:05:04 [INFO] - Context refreshed
+2023-11-18 20:05:04 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 20:05:04 [INFO] - Scanning for api listing references
+2023-11-18 20:05:04 [INFO] - Started MovieTicketBookingApplication in 15.043 seconds (JVM running for 16.245)
+2023-11-18 20:05:19 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-18 20:05:19 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-18 20:05:19 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-18 20:05:19 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-18 20:05:19 [DEBUG] - Detected FixedThemeResolver
+2023-11-18 20:05:19 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7f94e3db
+2023-11-18 20:05:19 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@37ba5b4a
+2023-11-18 20:05:19 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-18 20:05:19 [INFO] - Completed initialization in 4 ms
+2023-11-18 20:05:19 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:05:19 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:05:19 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:05:19 [DEBUG] - Resource not found
+2023-11-18 20:05:19 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:05:19 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:05:19 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:05:19 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:05:19 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:05:19 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:05:19 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:05:19 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:05:19 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:05:19 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:05:19 [DEBUG] - Resource not found
+2023-11-18 20:05:19 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:05:19 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:05:19 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:05:19 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:05:19 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:05:19 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:05:19 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:05:48 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:05:48 [DEBUG] - OPTIONS "/user/adduser", parameters={}
+2023-11-18 20:05:48 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addUser(UserDTO)
+2023-11-18 20:05:48 [DEBUG] - Completed 200 OK
+2023-11-18 20:05:48 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:05:48 [DEBUG] - POST "/user/adduser", parameters={}
+2023-11-18 20:05:48 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addUser(UserDTO)
+2023-11-18 20:05:48 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.UserDTO@bfa7ec9d]
+2023-11-18 20:05:48 [DEBUG] - Using @ExceptionHandler com.cg.mts.exception.GlobalExceptionHandler#handleValidationException(BindException)
+2023-11-18 20:05:48 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:05:48 [DEBUG] - Writing [[Role must be ADMIN or CUSTOMER]]
+2023-11-18 20:05:48 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.mts.dto.UserDTO> com.cg.mts.controller.UserController.addUser(com.cg.mts.dto.UserDTO) throws com.cg.mts.exception.AccessForbiddenException,com.cg.mts.exception.CustomerNotFoundException,com.cg.mts.exception.UserCreationError: [Field error in object 'userDTO' on field 'role': rejected value [customer]; codes [Pattern.userDTO.role,Pattern.role,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.role,role]; arguments []; default message [role],[Ljavax.validation.constraints.Pattern$Flag;@2d8034f7,^(ADMIN|CUSTOMER)$]; default message [Role must be ADMIN or CUSTOMER]] ]
+2023-11-18 20:05:48 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-18 20:12:00 [INFO] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-18 20:12:00 [INFO] - Stopping service [Tomcat]
+2023-11-18 20:12:00 [INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-18 20:12:00 [WARN] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-11-18 20:12:00 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:12:00 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-18 20:12:00 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-18 20:12:00 [INFO] - Starting MovieTicketBookingApplication using Java 17.0.7 on LIN-5CG0479BWQ with PID 30868 (C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication\target\classes started by lakshank in C:\Users\LAKSHANK\OneDrive - Capgemini\Documents\Prjt\MBOOKING\MBApplication)
+2023-11-18 20:12:00 [INFO] - The following 1 profile is active: "ABc"
+2023-11-18 20:12:01 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18 20:12:01 [INFO] - Finished Spring Data repository scanning in 124 ms. Found 10 JPA repository interfaces.
+2023-11-18 20:12:01 [INFO] - Tomcat initialized with port(s): 8000 (http)
+2023-11-18 20:12:01 [INFO] - Starting service [Tomcat]
+2023-11-18 20:12:01 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-18 20:12:01 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-18 20:12:01 [INFO] - Root WebApplicationContext: initialization completed in 1308 ms
+2023-11-18 20:12:01 [INFO] - HikariPool-2 - Starting...
+2023-11-18 20:12:01 [WARN] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-18 20:12:01 [INFO] - HikariPool-2 - Start completed.
+2023-11-18 20:12:02 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18 20:12:02 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-18 20:12:02 [DEBUG] - 60 mappings in 'requestMappingHandlerMapping'
+2023-11-18 20:12:02 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-18 20:12:02 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6767f553, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29a381b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fa16346, org.springframework.security.web.header.HeaderWriterFilter@405fe662, org.springframework.security.web.authentication.logout.LogoutFilter@19181fb, com.cg.mts.jwt.JwtRequestFilter@590d3aaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5be56e3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64b6ffd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6cecee, org.springframework.security.web.session.SessionManagementFilter@10023f6a, org.springframework.security.web.access.ExceptionTranslationFilter@87780fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fc0124]
+2023-11-18 20:12:03 [INFO] - LiveReload server is running on port 35729
+2023-11-18 20:12:03 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-18 20:12:03 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-18 20:12:03 [DEBUG] - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-18 20:12:03 [INFO] - Tomcat started on port(s): 8000 (http) with context path ''
+2023-11-18 20:12:03 [INFO] - Context refreshed
+2023-11-18 20:12:03 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-18 20:12:03 [INFO] - Scanning for api listing references
+2023-11-18 20:12:03 [INFO] - Started MovieTicketBookingApplication in 2.847 seconds (JVM running for 434.694)
+2023-11-18 20:12:03 [INFO] - Condition evaluation unchanged
+2023-11-18 20:14:24 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-18 20:14:24 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-18 20:14:24 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-18 20:14:24 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-18 20:14:24 [DEBUG] - Detected FixedThemeResolver
+2023-11-18 20:14:24 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@460b7426
+2023-11-18 20:14:24 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1c8c88b5
+2023-11-18 20:14:24 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-18 20:14:24 [INFO] - Completed initialization in 4 ms
+2023-11-18 20:14:24 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:14:24 [DEBUG] - POST "/user/adduser", parameters={}
+2023-11-18 20:14:24 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addUser(UserDTO)
+2023-11-18 20:14:24 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.UserDTO@bfa7ec9d]
+2023-11-18 20:14:24 [DEBUG] - Using @ExceptionHandler com.cg.mts.exception.GlobalExceptionHandler#handleValidationException(BindException)
+2023-11-18 20:14:24 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:14:24 [DEBUG] - Writing [[Role must be ADMIN or CUSTOMER]]
+2023-11-18 20:14:24 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.mts.dto.UserDTO> com.cg.mts.controller.UserController.addUser(com.cg.mts.dto.UserDTO) throws com.cg.mts.exception.AccessForbiddenException,com.cg.mts.exception.CustomerNotFoundException,com.cg.mts.exception.UserCreationError: [Field error in object 'userDTO' on field 'role': rejected value [customer]; codes [Pattern.userDTO.role,Pattern.role,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.role,role]; arguments []; default message [role],[Ljavax.validation.constraints.Pattern$Flag;@2d8034f7,^(ADMIN|CUSTOMER)$]; default message [Role must be ADMIN or CUSTOMER]] ]
+2023-11-18 20:14:24 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-18 20:15:29 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:15:29 [DEBUG] - POST "/user/adduser", parameters={}
+2023-11-18 20:15:29 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addUser(UserDTO)
+2023-11-18 20:15:29 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.UserDTO@316e4fbd]
+2023-11-18 20:15:29 [DEBUG] - Using @ExceptionHandler com.cg.mts.exception.GlobalExceptionHandler#handleValidationException(BindException)
+2023-11-18 20:15:29 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:15:29 [DEBUG] - Writing [[Role must be ADMIN or CUSTOMER]]
+2023-11-18 20:15:29 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.mts.dto.UserDTO> com.cg.mts.controller.UserController.addUser(com.cg.mts.dto.UserDTO) throws com.cg.mts.exception.AccessForbiddenException,com.cg.mts.exception.CustomerNotFoundException,com.cg.mts.exception.UserCreationError: [Field error in object 'userDTO' on field 'role': rejected value [customer]; codes [Pattern.userDTO.role,Pattern.role,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.role,role]; arguments []; default message [role],[Ljavax.validation.constraints.Pattern$Flag;@2d8034f7,^(ADMIN|CUSTOMER)$]; default message [Role must be ADMIN or CUSTOMER]] ]
+2023-11-18 20:15:29 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-18 20:17:20 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:20 [DEBUG] - OPTIONS "/login/login/pavan/PAVANN", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to com.cg.mts.controller.LoginController#loginUser(String, String)
+2023-11-18 20:17:20 [DEBUG] - Completed 200 OK
+2023-11-18 20:17:20 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:20 [DEBUG] - POST "/login/login/pavan/PAVANN", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to com.cg.mts.controller.LoginController#loginUser(String, String)
+2023-11-18 20:17:20 [INFO] - -----------------Login Successful----------------
+2023-11-18 20:17:20 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:20 [DEBUG] - Writing [com.cg.mts.dto.LoginDTO@d034d3af]
+2023-11-18 20:17:20 [DEBUG] - Completed 200 OK
+2023-11-18 20:17:20 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:20 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:20 [DEBUG] - Resource not found
+2023-11-18 20:17:20 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:20 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:20 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:20 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:20 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:20 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:17:20 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:20 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:20 [DEBUG] - Resource not found
+2023-11-18 20:17:20 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:20 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:20 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:20 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:20 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:20 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:20 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:17:31 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:31 [DEBUG] - GET "/customer/view/6", parameters={}
+2023-11-18 20:17:31 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:32 [DEBUG] - Resource not found
+2023-11-18 20:17:32 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:32 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:32 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:32 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:32 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:32 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:32 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:17:38 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:38 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:17:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:38 [DEBUG] - Resource not found
+2023-11-18 20:17:38 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:38 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:38 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:38 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:38 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:38 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:38 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:17:38 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:38 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:17:38 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:38 [DEBUG] - Resource not found
+2023-11-18 20:17:38 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:38 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:38 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:38 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:38 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:38 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:38 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:17:48 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:17:48 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:17:48 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:17:48 [DEBUG] - Resource not found
+2023-11-18 20:17:48 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:17:48 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:17:48 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:17:48 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:17:48 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:17:48 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:17:48 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:20:06 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:20:06 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:20:06 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:20:06 [DEBUG] - Resource not found
+2023-11-18 20:20:06 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:20:06 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:20:06 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:20:06 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:20:06 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:20:06 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:20:06 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:20:15 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:20:15 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:20:15 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:20:15 [DEBUG] - Resource not found
+2023-11-18 20:20:15 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:20:15 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:20:15 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:20:15 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:20:15 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:20:15 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:20:15 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:20:15 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:20:15 [DEBUG] - GET "/movies/findall", parameters={}
+2023-11-18 20:20:15 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-18 20:20:15 [DEBUG] - Resource not found
+2023-11-18 20:20:15 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-18 20:20:15 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-18 20:20:15 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-18 20:20:15 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:20:15 [DEBUG] - Writing [{timestamp=Sat Nov 18 20:20:15 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-18 20:20:15 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-18 20:20:37 [WARN] - JWT Token does not begin with Bearer String
+2023-11-18 20:20:37 [DEBUG] - POST "/user/adduser", parameters={}
+2023-11-18 20:20:37 [DEBUG] - Mapped to com.cg.mts.controller.UserController#addUser(UserDTO)
+2023-11-18 20:20:37 [DEBUG] - Read "application/json;charset=UTF-8" to [com.cg.mts.dto.UserDTO@930714af]
+2023-11-18 20:20:37 [DEBUG] - Using @ExceptionHandler com.cg.mts.exception.GlobalExceptionHandler#handleValidationException(BindException)
+2023-11-18 20:20:37 [DEBUG] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-18 20:20:37 [DEBUG] - Writing [[Role must be ADMIN or CUSTOMER]]
+2023-11-18 20:20:37 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.mts.dto.UserDTO> com.cg.mts.controller.UserController.addUser(com.cg.mts.dto.UserDTO) throws com.cg.mts.exception.AccessForbiddenException,com.cg.mts.exception.CustomerNotFoundException,com.cg.mts.exception.UserCreationError: [Field error in object 'userDTO' on field 'role': rejected value [customer]; codes [Pattern.userDTO.role,Pattern.role,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.role,role]; arguments []; default message [role],[Ljavax.validation.constraints.Pattern$Flag;@2d8034f7,^(ADMIN|CUSTOMER)$]; default message [Role must be ADMIN or CUSTOMER]] ]
+2023-11-18 20:20:37 [DEBUG] - Completed 400 BAD_REQUEST
